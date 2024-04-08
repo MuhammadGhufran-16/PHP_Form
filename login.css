@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("nature.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.02);
+
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.register-btn:hover {
+    cursor: pointer;
+    background: rgb(218,226,248);
+    background: linear-gradient(90deg, rgba(218,226,248,1) 0%, rgba(214,164,160,1) 100%);
+}
+.register-btn{
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    background-color: #ffffff5d;
+    
+}
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+/* a {
+    color: #007bff;
+    text-decoration: none;
+} */
+.submit-btn{
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #ffffff5d;
+    border: none;
+   }
+.submit-btn:hover{
+    cursor: pointer;
+    background: rgb(218,226,248);
+    background: linear-gradient(90deg, rgba(218,226,248,1) 0%, rgba(214,164,160,1) 100%);
+
+}
